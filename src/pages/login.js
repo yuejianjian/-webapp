@@ -3,6 +3,7 @@ import { Button,Toast } from 'antd-mobile';
 import '../css/login.css';
 import { loginApi } from '../api/api';
 import  http  from '../utils/ajax';
+import logo from '../image/logo.png';
 
 class Login extends Component {
   constructor() {
@@ -26,10 +27,11 @@ class Login extends Component {
     this.getLogin()
   }
   render() {
-    console.log(this.state);
     return (
-      <div className="App">
-        <Button type="primary">primary</Button>
+      <div>
+        <div className="logoimg">
+          <img src={logo} alt="公司logo" />
+        </div>
       </div>
     );
   }
