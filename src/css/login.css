@@ -1,4 +1,11 @@
 
+.loginbox{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    padding:0 1rem;
+    box-sizing: border-box;
+}
 .logoimg{
     width:100%;
     height:8rem;
@@ -10,4 +17,7 @@
 .logoimg img{
     width:8rem;
     height:8rem;
+}
+.login{
+    margin-top:3rem;
 }
